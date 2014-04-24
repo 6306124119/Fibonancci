@@ -7,7 +7,7 @@ public class Fibonancci {
         int x = 0;
         int y = 1;
 
-        for(int i = 1; i <= 10; i++)
+        for(int i = a; i <= 5; i--)
         {
             x = x + y;
             y = x - y;
@@ -22,3 +22,4 @@ public class Fibonancci {
         baru.fibonanci(4);
     }
 }
+
