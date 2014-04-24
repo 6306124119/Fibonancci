@@ -3,10 +3,7 @@ package fibonancci;
 import java.util.*;
 
 public class Fibonancci {
- static void main(String[] args) {
-        System.out.print("Input angka : ");
-        Scanner input = new Scanner(System.in);
-        int a = input.nextInt();
+    public void fibonanci(int a){
         int x = 0;
         int y = 1;
 
@@ -18,5 +15,10 @@ public class Fibonancci {
         }
 
         System.out.println();
+    }
+    public static void main(String[] args){
+        System.out.println();
+        Fibonancci baru = new Fibonancci();
+        baru.fibonanci(4);
     }
 }
