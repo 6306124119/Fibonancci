@@ -6,15 +6,15 @@ public class Fibonancci {
     public void fibonanci(int a){
         int x = 0;
         int y = 1;
-
+        int jumlah =0;
         for(int i = 1; i <= 10; i++)
         {
             x = x + y;
             y = x - y;
-            System.out.print(x + " ");
+            jumlah = jumlah+x;
         }
 
-        System.out.println();
+        System.out.println(jumlah);
     }
     public static void main(String[] args){
         System.out.println();
@@ -22,3 +22,4 @@ public class Fibonancci {
         baru.fibonanci(4);
     }
 }
+
